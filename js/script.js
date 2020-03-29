@@ -26,8 +26,11 @@ function estourar(elemento){
     var p = parseInt(document.getElementById("pontos").innerHTML);
     p = p + 1;
     document.getElementById("pontos").innerHTML = p;
-    if (p > 20){
-        alert ("uhuuu Ganhou");
+    
+    /*if (p >= 100){
+        alert ("Você bateu seu record: "+ p);
+        //setInterval(addBola, 2000);
         window.location.href=window.location.href;
-    }
+    }*/
+
 }
